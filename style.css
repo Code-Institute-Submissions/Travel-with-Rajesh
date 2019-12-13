@@ -18,6 +18,26 @@
 
 }
 
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+
+}
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+}
+
+.nav-item {
+  font-size: 25px;
+  letter-spacing: 4px;
+  width: 100%;
+}
 /*---------------------------------- Footer */
 
 footer {
@@ -30,3 +50,20 @@ footer {
 .list-inline-item {
   letter-spacing: 30px;
 }
+
+/*---------------------------------- Contact */
+
+.form-section {
+    height: 700px;
+}
+
+.contact-form {
+   color: grey;
+   max-width: 400px;
+   position: absolute;
+   left: 30%;
+   padding: 30px 80px;
+ }
+/*---------------------------------- mobile */
+
+@media 
