@@ -1,3 +1,8 @@
+hr {
+  color: #525252;
+  border: .5px solid;
+}
+
 /*-- heading */
 
 #main-pic {
@@ -18,15 +23,24 @@
 
 }
 
-
-.nav-item {
-  font-size: 25px;
+#menu {
+  font-size: 180%;
+  list-style-type: none;
   letter-spacing: 4px;
-  width: 100%;
-  text-decoration: none;
-  padding-right: 20px; 
-  padding-left: 110px;
+  background-color:#525252;
+  padding-bottom: 10px;
+  padding-top: 5px;
+  text-align: center;
 }
+
+#menu a {
+  margin-left: 60px;
+  margin-right: 60px;
+  color: #afafaf;
+  text-decoration: none;
+  
+}
+
 /*---------------------------------- Footer */
 
 footer {
@@ -47,11 +61,29 @@ footer {
 }
 
 .contact-form {
-   color: grey;
+   color: #525252;
    max-width: 400px;
    position: absolute;
    left: 30%;
-   padding: 30px 80px;
+   padding: 30px 30px;
+ }
+
+ .text-input {
+   color: #525252;
+   width: 100%;
+   height: 25px;
+   margin: 5px 0 20px 0;
+   border: 1px solid #525252;;
+   border-radius: 2px;
+ }
+
+ label {
+    display: inline-block;
+    margin-bottom: 0;
+ }
+
+ #message {
+   min-height: 100px;
  }
 
 /*---------------------------------- Gallery */
@@ -59,15 +91,64 @@ footer {
 #photo {
   clear: both;
   line-height: 0;
-  column-gap: 0px;
 
+}
+
+#photo h3 {
+  padding-top: 15px;
+  padding-bottom: 30px;
+  padding-left: 20px;
 }
 
 #photo img {
-  width: 20%;
-    column-count: 4;
+  width: 150px;
+  height: 100px;
+  column-count: 4;
+  column-gap: 0px;
+  margin-bottom: 5px;
 
 }
+
+#photo section {
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+/*---------------------------------- Trekking */
+.trekkings {
+  width: 70%;
+  margin-left: 20px;
+}
+
+.trekkings li {
+  list-style-type: none; 
+}
+
+.trekkings h3 {
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+.trekkings h5 {
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+/*---------------------------------- Tour */
+
+.tours {
+  width: 70%;
+  margin-left: 20px;
+}
+
+.tours h3 {
+  margin-top: 20px;
+  padding-top: 10px;
+}
+
+.tours li {
+  list-style-type: none;
+}
+
 /*---------------------------------- mobile */
 
 @media 
