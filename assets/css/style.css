@@ -1,0 +1,73 @@
+/*-- heading */
+
+#main-pic {
+  background: url(../images/main.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 360px;
+  position: relative;
+
+}
+
+.cover-text {
+  font-size: 55px;
+  margin-left: 100px;
+  margin-top: 50px;
+  position: absolute;
+
+}
+
+
+.nav-item {
+  font-size: 25px;
+  letter-spacing: 4px;
+  width: 100%;
+  text-decoration: none;
+  padding-right: 20px; 
+  padding-left: 110px;
+}
+/*---------------------------------- Footer */
+
+footer {
+    background-color: #525252;
+    color: #afafaf;
+    min-height: 120px;
+    margin: 0;
+}
+
+.list-inline-item {
+  letter-spacing: 30px;
+}
+
+/*---------------------------------- Contact */
+
+.form-section {
+    height: 700px;
+}
+
+.contact-form {
+   color: grey;
+   max-width: 400px;
+   position: absolute;
+   left: 30%;
+   padding: 30px 80px;
+ }
+
+/*---------------------------------- Gallery */
+
+#photo {
+  clear: both;
+  line-height: 0;
+  column-gap: 0px;
+
+}
+
+#photo img {
+  width: 20%;
+    column-count: 4;
+
+}
+/*---------------------------------- mobile */
+
+@media 
