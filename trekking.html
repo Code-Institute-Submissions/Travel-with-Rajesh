@@ -19,34 +19,53 @@
 				<a>Travel with Rajesh</a>
 			</div>
 		</div>
-		<nav>
-			<div class="container-fluid" id="menu">
-
-				<a href="index.html">Home</a>
-				<a href="trekking.html">Trekking</a>
-				<a href="tour.html">Tours</a>
-
-				<a href="gallery.html">Gallery</a>
-				<a href="contact.html">Contact</a>
-
-
-
-
-			</div>
-		</nav>
+		<div class="container-fluid navalert-container">
+			<nav class="navbar navbar-dark navbar-expand-sm">
+				<div class="collapse navbar-collapse" id="navbarNavDropdown">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
+						<li class="nav-item dropdown">
+							<a class="active nav-link dropdown-toggle" href="trekking.html" id="navbarDropdownMenulink" role="button" data-toggle="dropdown"
+							 aria-haspopup="true" aria-expanded="false">
+								Trekking
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdownMenulink">
+								<a class="dropdown-item" href="trekking.html#everest">Everest Region</a>
+								<a class="dropdown-item" href="trekking.html#annapurna">Annapurna Region</a>
+								<a class="dropdown-item" href="trekking.html#langtang">Langtang Region</a>
+								<a class="dropdown-item" href="trekking.html#manaslu">Manaslu Region</a>
+							</div>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="tour.html" id="navbarDropdownMenulink" role="button" data-toggle="dropdown" aria-haspopup="true"
+								 aria-expanded="false">
+									Tours
+								</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdownMenulink">
+									<a class="dropdown-item" href="tour.html#chitwan">Chitwan</a>
+									<a class="dropdown-item" href="tour.html#kathmandu">Kathmandu Valley</a>
+									<a class="dropdown-item" href="tour.html#pokhara">Pokhara</a>
+									<a class="dropdown-item" href="tour.html#homestay">Homestay</a>
+								</div>
+								<li class="nav-item mr-2"><a class="nav-link" href="gallery.html">Gallery</a></li>
+								<li class="nav-item mr-2"><a class="nav-link" href="contact.html">Contact</a></li>
+							</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
 	</header>
 
 	<body>
 		<div class="trekkings">
 
-			<section class="everest">
+			<section id="everest">
 				<div>
 					<h3>Everest Region</h3>
-         
+
 					<h5>
 						Everst Base Camp
 					</h5>
-          
+
 					<ul>
 						<li><b>Duration:</b> 10-12 days</li>
 						<li><b>Max Elevation:</b> 4130 m</li>
@@ -106,7 +125,7 @@
 				</div>
 			</section>
 
-			<section class="annapurna">
+			<section id="annapurna">
 				<div>
 					<h3>Annapurna Region</h3>
 
@@ -227,7 +246,7 @@
 
 			</section>
 
-			<section class="langtang">
+			<section id="langtang">
 				<div>
 					<h3>Langtang Region</h3>
 				
@@ -278,7 +297,7 @@
 
 			</section>
 
-			<section class="manaslu">
+			<section id="manaslu">
 				<div>
 					<h3>Manaslu Region</h3>
 					
@@ -375,6 +394,9 @@
 			</div>
 		</div>
   </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
   </body>
 </html>

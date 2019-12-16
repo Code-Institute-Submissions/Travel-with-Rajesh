@@ -23,7 +23,15 @@ hr {
 
 }
 
-#menu {
+/*---------------------------------- Navbar */
+.navalert-container {
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+
+}
+.navbar {
   font-size: 180%;
   list-style-type: none;
   letter-spacing: 4px;
@@ -33,14 +41,16 @@ hr {
   text-align: center;
 }
 
-#menu a {
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar .navbar-nav a {
   margin-left: 60px;
   margin-right: 60px;
   color: #afafaf;
   text-decoration: none;
-  
 }
-
 /*---------------------------------- Footer */
 
 footer {

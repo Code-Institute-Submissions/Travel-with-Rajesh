@@ -57,9 +57,8 @@ I have tried to us the website Mockbird, https://gomockingbird.com/home. To help
   I have used it to style:
   * Footer
   * Navbar
-* Fontawsome, https://fontawesome.com/icons?d=gallery
-  I have used it to make the social media more visable.
-* Webfx, https://www.webfx.com/tools/emoji-cheat-sheet/. to get some emoji's in my markdown.
+* Fontawsome, https://fontawesome.com/. I have used it to make the social media more visable.
+* Webfx, https://www.webfx.com/tools/emoji-cheat-sheet/. To get some emoji's in my markdown.
 
 JQuery
 The project uses JQuery to simplify DOM manipulation.
@@ -92,7 +91,7 @@ Different configuration files?
 Separate git branch?
 In addition, if it is not obvious, you should also describe how to run your code locally.
 
-##Credits
+## Credits
 
 ### Content
 The text for the section reviews was copied from the facebook page of Travel with Rajesh. The text for the section about us, trekking and tours is from the company Travel with Rajesh.
