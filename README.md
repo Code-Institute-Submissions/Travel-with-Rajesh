@@ -35,6 +35,9 @@ For some/all of your features, you may choose to reference the specific project 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
+* A place to send the contact form to.
+* A up button at the trekking page, to go to the top of the page again.
+* 
 Another feature idea
 
 ## Technologies Used
