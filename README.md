@@ -63,6 +63,7 @@ I have tried to us the website Mockbird, https://gomockingbird.com/home. To help
   * Navbar
 * Fontawsome, https://fontawesome.com/. I have used it to make the social media more visable.
 * Webfx, https://www.webfx.com/tools/emoji-cheat-sheet/. To get some emoji's in my markdown.
+* Facebook, I used information for the review section from the facebook page Travel with Rajesh. So that people can see that real people left those reviews and where not made up just for this webpage.
 
 JQuery
 The project uses JQuery to simplify DOM manipulation.
@@ -103,10 +104,12 @@ In addition, if it is not obvious, you should also describe how to run your code
 ## Credits
 
 ### Content
-The text for the section reviews was copied from the facebook page of Travel with Rajesh. The text for the section about us, trekking and tours is from the company Travel with Rajesh.
+The text for the section reviews was copied from the facebook page of Travel with Rajesh. 
+The text for the section about us, trekking and tours is from the company Travel with Rajesh.
+
 
 ### Media :camera:
-The photos used in this site were obtained from Rajesh Timalsina
+The photos used in this site were obtained from Rajesh Timalsina. Expect the different pictures in the review section, these are obtained from the facebook pages of the four people how left a review op the facebook page of Travel with Rajesh.
 
 ### Acknowledgements
 I received inspiration for this project from my friend Rajesh Timalsina. He started his own company as a guide, to provide for his family and his future. He would be able to get a better income if he was his own boss then working for someone else. He found out that it was difficult to get jobs, even though he has his instagram and facbook page. I wanted to help him with getting, hopefuly, more known under all the tourist that go to Nepal every year to do trekking or tours through this beautiful country.
