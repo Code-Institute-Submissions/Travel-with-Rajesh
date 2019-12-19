@@ -182,7 +182,7 @@ footer {
     height: 120px;
   }
   .cover-text {
-    font-size: 25px;
+    font-size: 19px;
     margin-top: 10px;
   }
 }
@@ -197,6 +197,12 @@ footer {
   
   }
 
+  .cover-text {
+    font-size: 35px;
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -207,15 +213,22 @@ footer {
   .form-section {
     margin-left: 30%;
   }
+
+  .cover-text {
+    font-size: 48px;
+    margin-top: 20px;
+    margin-left: 30px;
+  }
 }
 
-media screen and (min-width: 1367px) {
+@media screen and (min-width: 1440px) {
   #main-pic {
-    height: 400px;
+    height: 450px;
   }
   
-  .cover-text a {
+  .cover-text {
+    font-size: 60px;
+    margin-top: 30px;
     margin-left: 40px;
-    font-size: 50px;
   }
 }
