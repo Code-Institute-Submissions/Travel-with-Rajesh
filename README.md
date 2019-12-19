@@ -24,6 +24,7 @@ This section is also where you would share links to any wireframes, mockups, dia
 * Reviews, to show what people think about the company and tell there experiances with it. 
 * Footer, as an extra uppertunity to get people to ask, look or give them more information.
 * Contact Form, help them get in contact with the owner for information or book a tour.
+* <hr> tag, to make it easier for users to see differance between differnt sections or areas.
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 
@@ -85,6 +86,11 @@ You should also mention in this section any interesting bugs or problems you dis
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ## Deployment
+
+After I deployed my project I found out why you should not use capital letters in the name of your website. It makes it difficulter to find. I had someone look at my website and he typed everything in small letters en we got an error that it could not be found. I changed the capital letters to small letters and asked him again to look it up. But it did not make any differance. That was when I found out that I made this mistake.
+
+
+
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
 In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:

@@ -171,6 +171,10 @@ footer {
   
 }
 
+.container-wrapper {
+  margin-bottom: 20px;
+}
+
 /*---------------------------------- mobile */
 
 @media screen and (min-width: 320px) {
@@ -180,6 +184,7 @@ footer {
   .cover-text {
     font-size: 25px;
     margin-top: 10px;
+  }
 }
 
 @media screen and (min-width: 767px) {
@@ -201,5 +206,16 @@ footer {
   
   .form-section {
     margin-left: 30%;
+  }
+}
+
+media screen and (min-width: 1367px) {
+  #main-pic {
+    height: 400px;
+  }
+  
+  .cover-text a {
+    margin-left: 40px;
+    font-size: 50px;
   }
 }
