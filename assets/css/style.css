@@ -147,12 +147,12 @@ footer a {
 }
 /*---------------------------------- Trekking */
 .trekkings {
-  width: 70%;
   margin-left: 20px;
 }
 
 .trekkings li {
   list-style-type: none; 
+  width: 90%;
 }
 
 .trekkings h2 {
@@ -171,7 +171,6 @@ footer a {
 /*---------------------------------- Tour */
 
 .tours {
-  width: 70%;
   margin-left: 20px;
 }
 
@@ -182,6 +181,7 @@ footer a {
 
 .tours li {
   list-style-type: none;
+  width: 90%;
 }
 
 /*---------------------------------- Home */
