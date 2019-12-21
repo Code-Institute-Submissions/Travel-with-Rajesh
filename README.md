@@ -9,6 +9,8 @@ I hope with making this website people will find him on there online search for 
 
 What I want to bring for the external users is a clear overview of all the different possible tours and trekking that his company offers. What they can expect on those tours and maybe even getting an idea of what the surrounding looks like with the photo gallery. With the different reviews I want to show them that this company will go the extra mile to give them a great trip and maybe even an once in a life time experience along the way. 
 
+I wanted to keep the colors neutral because I did not want it to stand out to much against the different pictures that are on the site.
+
 
 ## UX
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
@@ -105,6 +107,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ### Content
 The text for the section reviews was copied from the facebook page of Travel with Rajesh. 
+Some of the text from the trekking page is supplied by the campany Travel with Rajesh but also has been copied of the website of the company Explore Himalaya, https://www.explorehimalaya.com. To fill in the text for the remaining treks, Everest base camp where thers was no text for yet.
 The text for the section about us, trekking and tours is from the company Travel with Rajesh.
 
 
@@ -112,4 +115,5 @@ The text for the section about us, trekking and tours is from the company Travel
 The photos used in this site were obtained from Rajesh Timalsina. Expect the different pictures in the review section, these are obtained from the facebook pages of the four people how left a review op the facebook page of Travel with Rajesh.
 
 ### Acknowledgements
+I would like to thank some of my colleagues for giving me suggestions on how to make this site more appealing for users.
 I received inspiration for this project from my friend Rajesh Timalsina. He started his own company as a guide, to provide for his family and his future. He would be able to get a better income if he was his own boss then working for someone else. He found out that it was difficult to get jobs, even though he has his instagram and facbook page. I wanted to help him with getting, hopefuly, more known under all the tourist that go to Nepal every year to do trekking or tours through this beautiful country.

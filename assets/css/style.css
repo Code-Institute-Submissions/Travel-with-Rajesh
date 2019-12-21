@@ -7,6 +7,16 @@ hr {
 h2 {
   margin-bottom: 20px;
   margin-top: 20px;
+  margin-left: 30px;
+}
+
+.send {
+  color: #525252;
+}
+
+h5 {
+  margin-left: 30px;
+  padding-top: 20px;
 }
 
 /*---------------------------------- Heading */
@@ -71,6 +81,10 @@ footer {
   letter-spacing: 30px;
 }
 
+footer h5 {
+  margin-left: 0;
+}
+
 footer a {
   color: #afafaf;
 }
@@ -122,8 +136,7 @@ footer a {
 }
 
 #photo img {
-  width: 150px;
-  height: 100px;
+  width: 100%x;
   column-count: 4;
   column-gap: 0px;
   margin-bottom: 5px;
@@ -147,7 +160,7 @@ footer a {
 }
 /*---------------------------------- Trekking */
 .trekkings {
-  margin-left: 20px;
+  margin-bottom: 20px;
 }
 
 .trekkings li {
@@ -160,24 +173,14 @@ footer a {
     padding-top: 10px;
 }
 
-.trekkings h5 {
-  padding-top: 20px;
-  padding-left: 10px;
-}
-
 .images a {
   text-align: right;
 }
+#annapurna, #manaslu, #kathmandu, #homestay {
+   background-color: rgba(82, 82, 82,.20);
+}
+   
 /*---------------------------------- Tour */
-
-.tours {
-  margin-left: 20px;
-}
-
-.tours h3 {
-  margin-top: 20px;
-  padding-top: 10px;
-}
 
 .tours li {
   list-style-type: none;
@@ -188,6 +191,10 @@ footer a {
 
 .about {
   margin-top: 20px;
+}
+
+.about p {
+  margin-left: 20px;
 }
 
 .container {
@@ -207,6 +214,15 @@ footer a {
 
 .media {
   margin-bottom: 10px
+}
+
+.media h5 {
+  margin-left: 0;
+}
+
+.media img {
+  margin-top: 10px;
+  margin-left: 20px;
 }
 /*---------------------------------- mobile */
 
