@@ -81,6 +81,9 @@ footer {
   letter-spacing: 30px;
 }
 
+.social-links {
+  padding-left: 0;
+}
 footer h5 {
   margin-left: 0;
 }
@@ -136,10 +139,9 @@ footer a {
 }
 
 #photo img {
-  width: 100%x;
+  width: 100%;
   column-count: 4;
   column-gap: 0px;
-  margin-bottom: 5px;
 
 }
 
@@ -176,7 +178,10 @@ footer a {
 .images a {
   text-align: right;
 }
-#annapurna, #manaslu, #kathmandu, #homestay {
+#annapurna, 
+#manaslu, 
+#kathmandu, 
+#homestay {
    background-color: rgba(82, 82, 82,.20);
 }
    
@@ -233,6 +238,22 @@ footer a {
   .cover-text {
     font-size: 19px;
     margin-top: 10px;
+  }
+
+
+  h5,
+  h2,
+  h6,
+  .about p,
+  .media h5,
+  .blockquote p {
+    margin-left: 5px;
+  }
+
+
+  #photo section {
+    padding-left: 0;
+    padding-bottom: 0;
   }
 }
 
