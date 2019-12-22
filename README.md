@@ -75,6 +75,7 @@ I have tried to us the website Mockbird, https://gomockingbird.com/home. To help
 * Facebook, I used information for the review section from the facebook page Travel with Rajesh. So that people can see that real people left those reviews and where not made up just for this webpage.
 * I have used the mini project whiskey drop and love running. I used the navbar and quote section of whiskey drop and changed it to suit my layout. From love running I used the cover-text to get the name of the page show up on my cover picture and for there contact-form.
 * code institute, https://codeinstitute.net/. To watch back some of the video lessons I found interesting to make this website.
+* stockoverflow, https://stackoverflow.com/questions/8097744/how-do-i-center-this-form-in-css. To help me center my contact form in a better way.
 
 
 ## Testing
