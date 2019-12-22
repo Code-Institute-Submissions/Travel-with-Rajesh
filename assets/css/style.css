@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Lora|Roboto&display=swap');
+
+body {
+  font-family: "Lora";
+  font-size: 18px;
+}
+
+p {
+  font-size: 18px;
+}
+
 hr {
   color: #525252;
   border: .5px solid;
@@ -8,15 +19,20 @@ h2 {
   margin-bottom: 20px;
   margin-top: 20px;
   margin-left: 30px;
+  font-family: "Roboto"
 }
 
 .send {
   color: #525252;
 }
 
+h3 {
+  font-family: "Roboto"
+}
+
 h5 {
   margin-left: 30px;
-  padding-top: 20px;
+  font-family: "Roboto"
 }
 
 /*---------------------------------- Heading */
@@ -245,7 +261,7 @@ footer a {
   }
   .cover-text {
     font-size: 19px;
-    margin-top: 10px;
+    margin-top: 20px;
   }
 
   .form-section {
@@ -276,7 +292,7 @@ footer a {
   
   .cover-text {
     font-size: 35px;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: 30px;
   }
 
@@ -286,10 +302,17 @@ footer a {
   #main-pic {
     height: 300px;
   }
+
+  h2,
+  h5,
+  .about p {
+    margin-left: 20px;
+
+  }
  
   .cover-text {
-    font-size: 48px;
-    margin-top: 20px;
+    font-size: 45px;
+    margin-top: 40px;
     margin-left: 30px;
   }
 }
@@ -298,10 +321,16 @@ footer a {
   #main-pic {
     height: 450px;
   }
-  
+
+  h2,
+  h5,
+  .about p {
+    margin-left: 20px;
+  }
+
   .cover-text {
     font-size: 60px;
-    margin-top: 30px;
+    margin-top: 60px;
     margin-left: 40px;
   }
 
@@ -339,5 +368,7 @@ footer a {
     margin-left: 20px;
   }
 
-  
+  .about p {
+    margin-left: 20px;
+  }
 }
