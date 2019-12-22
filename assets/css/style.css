@@ -97,13 +97,19 @@ footer a {
 .form-section {
     height: 700px;
     margin-top: 30px;
-    position: relative;
+    display: block;
+    text-align: center;
+  
+
 }
 
 .contact-form {
    color: #525252;
    max-width: 400px;
-   position: absolute;
+   display: inline-block;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: left;
  }
 
  .text-input {
@@ -262,11 +268,6 @@ footer a {
     height: 230px;
   }
   
-  .form-section {
-    margin-left: 25%;
-  
-  }
-
   .cover-text {
     font-size: 35px;
     margin-top: 20px;
@@ -279,11 +280,7 @@ footer a {
   #main-pic {
     height: 300px;
   }
-  
-  .form-section {
-    margin-left: 30%;
-  }
-
+ 
   .cover-text {
     font-size: 48px;
     margin-top: 20px;
@@ -302,7 +299,5 @@ footer a {
     margin-left: 40px;
   }
 
-  .form-section {
-    margin-left: 35%;
-  }
+  
 }
