@@ -95,7 +95,7 @@ footer a {
 /*---------------------------------- Contact */
 
 .form-section {
-    height: 700px;
+    height: auto;
     margin-top: 30px;
     display: block;
     text-align: center;
@@ -303,6 +303,40 @@ footer a {
     font-size: 60px;
     margin-top: 30px;
     margin-left: 40px;
+  }
+
+  
+}
+
+@media screen and (min-width: 2250px) {
+  #main-pic {
+    height: 750px;
+  }
+  
+  .cover-text {
+    font-size: 110px;
+    margin-top: 150px;
+    margin-left: 80px;
+  }
+
+  .navbar {
+    font-size: xxx-large;
+  }
+
+  h3,
+  p,
+  li {
+    font-size: xx-large;
+  }
+
+  h2 {
+    font-size: xxx-large;
+    margin-left: 20px;
+  }
+
+  h5 {
+    font-size: xx-large;
+    margin-left: 20px;
   }
 
   
