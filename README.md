@@ -23,13 +23,15 @@ As a user type, I want to perform an action, so that I can achieve a goal.
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
 ## Features
+
+
 * Navbar, to help people navigate over the page better.
 * Dropdown in navbar, I made it to help people find the section of there interest faster. I have used jquery and popper for that.
 * Photo gallery, to show people the beautiful surrounding and give them an idea of what they can see on the way.
 * Reviews, to show what people think about the company and tell there experiances with it. 
 * Footer, as an extra uppertunity to get people to ask, look or give them more information.
 * Contact Form, help them get in contact with the owner for information or book a tour.
-* <hr> tag, to make it easier for users to see differance between differnt sections or areas.
+* hr tag, to make it easier for users to see differance between differnt sections or areas.
 
 ### Existing Features
 Feature 1 - allows users X to achieve Y, by having them fill out Z

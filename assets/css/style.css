@@ -146,9 +146,12 @@ footer a {
 
 #photo img {
   width: 100%;
-  column-count: 4;
   column-gap: 0px;
 
+}
+
+.images {
+  column-count: 3;
 }
 
 #photo section {
