@@ -2,32 +2,35 @@
 
 :house: https://ceciliabinck.github.io/Travel-with-Rajesh/
 
-Rajesh Timalsina is the owner of this business. We have been friend for about 7 years. I have heard him talk about how difficult it can be to get people to book with him and not one of the other companies. He has had the idea of making a website for a couple of years now but there was always something that got inbetween.
+Because this company is know on Facebook and Instagram under this name I did not change the name. It would have been strange if the website would have a different name then their Facebook and Instagram.
 
-When I read about this project, the first thing I thought about was helping him. As this is my first project it will be a good basic website for him to start with. I want to help him to reach more people. He can use this page in combination with is other social media. To get it on to the internet with all the other companies. What makes his company special is the fact that it is still a small company, so he will guide you from the frist to the last step. 
-I hope with making this website people will find him on there online search for a company to do some amazing activities in Nepal.
+I want to help this company to reach more users. They can use this page in combination with their other social media. What makes this company special is the fact that it is still a small company, so they will guide you from the frist to the last step. I hope with making this website users will find them on there online search for a company to do some amazing activities in Nepal with.
 
 What I want to bring for the external users is a clear overview of all the different possible tours and trekking that his company offers. What they can expect on those tours and maybe even getting an idea of what the surrounding looks like with the photo gallery. With the different reviews I want to show them that this company will go the extra mile to give them a great trip and maybe even an once in a life time experience along the way. 
 
 I wanted to keep the colors neutral because I did not want it to stand out to much against the different pictures that are on the site. i wanted to high light some pictures showing how amazing Nepal is. I also did not want it to be to busy to scare of some users.
 
-I made it dropdown in the navbar to make it easier for users to find different sections on the trekking and tour page, the text on these pages can be a bit overwhelming especialy on the trekking page. There is a lot of information there. A colleauge told me all that white doesn't read very good. So I made some changes to the colours of the background as where it is easier to distinct the different region/sections on the page.
+I made a dropdown in the navbar to make it easier for users to find different sections on the trekking and tour page, the text on these pages can be a bit overwhelming especialy on the trekking page. There is a lot of information there. A colleauge told me all that white doesn't read very good. So I made some changes to the colours of the background as where it is easier to distinct the different region/sections on the page.
+
+I also heard they will modify a tour or a trekking to your needs, some want more comfort then others. I put that in h4 centered underneed the page as there wasn't really a good place any where else. I put a link next to al the trek and tour names with a star symble to link them to this information.
+
+If you fill out the contact form correctly it will send you to the success.html, with the message that your message has been send to the company. As I am not sure yet how to make a alert that it has been send in a pop up.
 
 
 ## UX
 
 This website is for users that are intersted in traveling to Nepal. Whether it is for an adventures and active or a leisure holiday it is all possible in Nepal.
 
-Users how are interested in an adventures or active holiday, can find different treks to do in Nepal. With every trek there is listed if it is an easy, medium or hard trek. They can also read in the discription what they can expect on the trek and there is even a link that will take them to the gallery page. On this gallery page they can see pictures of how that region looks like to get an better idea of what kind of view they can expect. 
+Users how are interested in a holiday in Nepal, can find different treks to do in Nepal. With every trek there is listed if it is an easy, medium or hard trek. This is not specified with the tours because the are more of the easy kind.The tours can be modified them to make them easier or harder if the user would want to.
+They can also read in the discription what they can expect on the trek and there is even a link that will take them to the gallery page. On this gallery page they can see pictures of how that region looks like to get an better idea of what kind of view they can expect. 
 
-The users how are interested in an more leisure
+When a user has found what they are interested in, the user will feel in the contact form as a first step to getting a tour made for them, in ther price range.
 
-
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+(Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 
-As a user type, I want to perform an action, so that I can achieve a goal.
+As a user type, I want to perform an action, so that I can achieve a goal.)
 
 ### Design process
 
@@ -37,13 +40,13 @@ I have tried to us the website Mockbird, https://gomockingbird.com/home. To help
 
 * Home page. On this home page users can find more information about the company and the people behind it. They can also find some reviews that people left after using the this company.
 * Trekking, here users can find all the different trekking that this company offers.
-* Tours, here users can find all the different tours that this campany offers.
+* Tours, here users can find all the different tours that this company offers.
 * Photo gallery, to show users the beautiful surrounding and give them an idea of what they can see on the way.
 * Contact Form, help them get in contact with the owner for information or book a tour.
 
 ### Existing Features
 
-Feature 1 - Allows useres to get an idea of what kind of campany it is and what oter people think of the company and there staff.
+Feature 1 - Allows useres to get an idea of what kind of company it is and what oter people think of the company and there staff.
 Feature 2 and 3 - Will give users a better idea of the kind of possibilities there are for there holiday in Nepal. They can see if it suits there expectations on what they would want to do on there holiday, by reading the difficulty range.
 Feature 4 - Allows users to get a sneakpeak in to the beautiful country and give them an idea of how the different regions look like.
 Feature 5 - Allows users to get more information or book a tour/ trekking for there holiday. By having them fill out the contact form,which allows the company to give feedback back to them.
@@ -103,16 +106,16 @@ Contact form:
 Go to the "Contact" page
 Try to submit the empty form and verify that an error message about the required fields appears
 Try to submit the form with an invalid email address and verify that a relevant error message appears, these messages appear in the language you have your device in.
-Try to submit the form with all inputs valid and verify that it will go back to the contact form, this in chrome. When I tested it in Microsoft Edge and on a mobile device instead of going back to the contact form, it gives an 405 error.
+Try to submit the form with all inputs valid and verify it will send the user to the success.html, with the message that the message has been send to the company. I have tested this in chrome and it will send you to the success.html, with the message that your message has been send to the company. I have tested it on a mobile device instead of going to the success.html, with the message that it is send to the company, it gives an 405 error.
 
-I have 
+I have not been able to get that bug out of it.
 
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+(In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+If this section grows too long, you may want to split it off into a separate file and link to it from here.)
 
 ## Deployment
 
@@ -120,21 +123,21 @@ After I deployed my project I found out why you should not use capital letters i
 
 
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+(This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
 In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
 
 Different values for environment variables (Heroku Config Vars)?
 Different configuration files?
 Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
+In addition, if it is not obvious, you should also describe how to run your code locally.)
 
 ## Credits
 
 ### Content
 The text for the section reviews was copied from the facebook page of Travel with Rajesh. 
-Some of the text from the trekking page is supplied by the campany Travel with Rajesh but also has been copied of the website of the company Explore Himalaya, https://www.explorehimalaya.com. To fill in the text for the remaining treks, Everest base camp where thers was no text for yet.
-The text for the section about us and tours is from the company Travel with Rajesh.
+The text from the trekking page is supplied by the company Travel with Rajesh. The contant of the tour section is dumby text of one of the tours that can be found on the Facebook page of the company. The dumby text for the section about us that is written by myself as the owner was working at the time I was making this project.
+
 
 
 ### Media :camera:
