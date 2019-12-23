@@ -67,12 +67,10 @@ h5 {
 }
 .navbar {
   font-size: 120%;
-  list-style-type: none;
   letter-spacing: 4px;
   background-color:#525252;
   padding-bottom: 10px;
   padding-top: 5px;
-  text-align: center;
 }
 
 .navbar .navbar-toggler {
@@ -147,25 +145,31 @@ label {
 
 /*---------------------------------- Success message */
 
+.success {
+  display: block;
+  text-align: center;
+}
+
+.success-form {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
 #received {
   text-transform: uppercase;
-  text-align: center;
   margin-top: 80px;
   margin-bottom: 40px;
-  font-size: 30px;
-  
+  font-size: 30px;  
 }
 
 #anwser {
-  text-align: center;
   margin: 40px 0;
 }
 
 #interest {
-  text-align: center;
   margin-top: 40px;
   margin-bottom: 80px;
-
 }
 
 
@@ -372,18 +376,14 @@ label {
     margin-left: 80px;
   }
 
-  .navbar {
-    font-size: xxx-large;
-  }
-
   h3,
   p,
   li {
-    font-size: xx-large;
+    font-size: 30px;
   }
 
   h2 {
-    font-size: xxx-large;
+    font-size: 45px;
     margin-left: 20px;
   }
 
