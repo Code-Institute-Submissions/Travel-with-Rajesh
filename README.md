@@ -34,6 +34,7 @@ As a user type, I want to perform an action, so that I can achieve a goal.
 I have tried to us the website Mockbird, https://gomockingbird.com/home. To help me make the different frameworks for this page. I have to be honest I did not know how to use it. I was able to work some aspect of the site but not all. I had just had a meeting with Rajesh Timalsina and it was still fresh in my mind so I draw it on paper. I have incerted them in the repository in the folder mockups.
 
 ### Features
+
 * Home page. On this home page users can find more information about the company and the people behind it. They can also find some reviews that people left after using the this company.
 * Trekking, here users can find all the different trekking that this company offers.
 * Tours, here users can find all the different tours that this campany offers.
@@ -48,6 +49,7 @@ Feature 4 - Allows users to get a sneakpeak in to the beautiful country and give
 Feature 5 - Allows users to get more information or book a tour/ trekking for there holiday. By having them fill out the contact form,which allows the company to give feedback back to them.
 
 ### Features Left to Implement
+
 * A place to send the contact form to. I don't know yet how to link an email address to the contact form. So that when users fill out the contact form, they will get an suitable anwers back on their question or booking. 
 * Also an message that tells users they have filled in the contact form correctly and that is has been send.
 * A up button at the trekking page, to go to the top of the page again. A colleauge of mine suggested this to me because he found this as an user easier to go back to the top og the page, as to scroll all the way up again.
