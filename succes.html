@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" type="text/css" />
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
     <title>Travel with Rajesh</title>
+
   </head>
 
   <body>
@@ -18,7 +19,7 @@
             </div>
         </div>
         <div class="container-fluid navalert-container">
-            <nav class="navbar navbar-dark navbar-expand-sm col-sm-12">
+            <nav class="navbar navbar-dark navbar-expand-sm col-sm-12 col-md-12">
                 <button class="navbar-toggler ml-auto sm-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -55,34 +56,28 @@
 
     </header>
 
-    <section class="form-section">
-        <form class="contact-form" method="post" action="succes.html">
-            <h3>Would you like to book or get more information about our tours or trekkings? Please use the form below to get in contact with us.</h3>
+    <div class="succes">
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+          <h1 id="received">
+            We have received your message!
+          </h1>
+        </div>
+      </div>
+      <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <h4 id="anwser">
+              Your message has been received and an another email will be sent out as soon as Your message is anwserd.
+            </h4>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <p id="interest">Thank you for your interest in our company.</p>
+          </div>
+      </div>
+    </div>
 
-           <label for="fname">First Name:</label>
-            <input class="text-input" type="text" name="first_name" id="fname" required />
-            <div class="valid-feedback">
-              Looks good!
-            </div>
-
-            <label for="lname">Last Name:</label>
-            <input class="text-input" type="text" name="last_name" id="lname" required />
-
-            <label for="email">Email Address:</label>
-            <input class="text-input" type="email" name="email_address" id="email" required />
-
-            <label for="intrest">Intested In:</label>
-            <input class="text-input" type="text" name="intrested_in" id="intrest" required />
-
-            <label for="message">Message</label>
-            <textarea class="text-input" id="message" rows="5" required></textarea>
-
-
-            <input class="send" type="submit" value="Submit">
-
-        </form>
-
-    </section>
 
     <footer class="container-fluid">
         <div class="row">

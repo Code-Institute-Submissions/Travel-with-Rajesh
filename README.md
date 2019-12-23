@@ -1,6 +1,6 @@
 # Travel with Rajesh
 
-:house: (put the link of the site here)
+:house: https://ceciliabinck.github.io/Travel-with-Rajesh/
 
 Rajesh Timalsina is the owner of this business. We have been friend for about 7 years. I have heard him talk about how difficult it can be to get people to book with him and not one of the other companies. He has had the idea of making a website for a couple of years now but there was always something that got inbetween.
 
@@ -15,36 +15,44 @@ I made it dropdown in the navbar to make it easier for users to find different s
 
 
 ## UX
+
+This website is for users that are intersted in traveling to Nepal. Whether it is for an adventures and active or a leisure holiday it is all possible in Nepal.
+
+Users how are interested in an adventures or active holiday, can find different treks to do in Nepal. With every trek there is listed if it is an easy, medium or hard trek. They can also read in the discription what they can expect on the trek and there is even a link that will take them to the gallery page. On this gallery page they can see pictures of how that region looks like to get an better idea of what kind of view they can expect. 
+
+The users how are interested in an more leisure
+
+
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 
 As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
-## Features
+### Design process
 
+I have tried to us the website Mockbird, https://gomockingbird.com/home. To help me make the different frameworks for this page. I have to be honest I did not know how to use it. I was able to work some aspect of the site but not all. I had just had a meeting with Rajesh Timalsina and it was still fresh in my mind so I draw it on paper. I have incerted them in the repository in the folder mockups.
 
-* Navbar, to help people navigate over the page better.
-* Dropdown in navbar, I made it to help people find the section of there interest faster. I have used jquery and popper for that.
-* Photo gallery, to show people the beautiful surrounding and give them an idea of what they can see on the way.
-* Reviews, to show what people think about the company and tell there experiances with it. 
-* Footer, as an extra uppertunity to get people to ask, look or give them more information.
+### Features
+* Home page. On this home page users can find more information about the company and the people behind it. They can also find some reviews that people left after using the this company.
+* Trekking, here users can find all the different trekking that this company offers.
+* Tours, here users can find all the different tours that this campany offers.
+* Photo gallery, to show users the beautiful surrounding and give them an idea of what they can see on the way.
 * Contact Form, help them get in contact with the owner for information or book a tour.
-* hr tag, to make it easier for users to see differance between differnt sections or areas.
 
 ### Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+Feature 1 - Allows useres to get an idea of what kind of campany it is and what oter people think of the company and there staff.
+Feature 2 and 3 - Will give users a better idea of the kind of possibilities there are for there holiday in Nepal. They can see if it suits there expectations on what they would want to do on there holiday, by reading the difficulty range.
+Feature 4 - Allows users to get a sneakpeak in to the beautiful country and give them an idea of how the different regions look like.
+Feature 5 - Allows users to get more information or book a tour/ trekking for there holiday. By having them fill out the contact form,which allows the company to give feedback back to them.
 
 ### Features Left to Implement
-* A place to send the contact form to.
-* A up button at the trekking page, to go to the top of the page again.
-* When you click on the pictures that a pop up of the picture will appear.
-* Put prices on the page.
+* A place to send the contact form to. I don't know yet how to link an email address to the contact form. So that when users fill out the contact form, they will get an suitable anwers back on their question or booking. 
+* Also an message that tells users they have filled in the contact form correctly and that is has been send.
+* A up button at the trekking page, to go to the top of the page again. A colleauge of mine suggested this to me because he found this as an user easier to go back to the top og the page, as to scroll all the way up again.
+* When you click on the pictures that a pop up of the picture will appear. Als the pictures in the gallery appear quite small it would be nice that when users click on it, they will get an pop up of the picture in a bigger size. So they can have a better look.
+* Put prices on the page. When users are looking for things to do on there holiday they would like to have an indication of what the cost would be, at least I would want to know. I have been told that because of the different factures during or preparing for the tour/trek can effect the price. So it makes it difficult to just pot down a price.
 
 ## Technologies Used
 (In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.)
@@ -58,7 +66,11 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ### Frameworks :page_facing_up:
 
-I have tried to us the website Mockbird, https://gomockingbird.com/home. To help me make the different frameworks for this page. I have to be honest I did not know how to use it. I was able to work some aspect of the site but not all. I had just had a meeting with Rajesh Timalsina and it was still fresh in my mind so I draw it on paper. I have incerted them in the repository. 
+Bootsctrap, https://getbootstrap.com/
+  I have used it to style:
+  * Footer
+  * Navbar
+  * Review section
 
 ### Libraries :books:
 
@@ -67,17 +79,15 @@ I have tried to us the website Mockbird, https://gomockingbird.com/home. To help
   * How to make my dropdown  
   * To make message text area bigger in my contact form.
 * Slack, thanks to Sean Murphy for helping me with my internal link.
-* Bootsctrap, https://getbootstrap.com/
-  I have used it to style:
-  * Footer
-  * Navbar
-  * Review section
 * Fontawsome, https://fontawesome.com/. I have used it to make the social media more visable.
 * Webfx, https://www.webfx.com/tools/emoji-cheat-sheet/. To get some emoji's in my markdown.
 * Facebook, I used information for the review section from the facebook page Travel with Rajesh. So that people can see that real people left those reviews and where not made up just for this webpage.
 * I have used the mini project whiskey drop and love running. I used the navbar and quote section of whiskey drop and changed it to suit my layout. From love running I used the cover-text to get the name of the page show up on my cover picture and for there contact-form.
 * code institute, https://codeinstitute.net/. To watch back some of the video lessons I found interesting to make this website.
 * stockoverflow, https://stackoverflow.com/questions/8097744/how-do-i-center-this-form-in-css. To help me center my contact form in a better way.
+* Wikipedia, https://en.wikipedia.org. To help me look up the hights of different peaks/mountains
+* Make a readme, https://www.makeareadme.com. To get an better idea of how to write a good readme.md but it wasn't very helpfull.
+* Google/Yahoo, https://www.google.nl / https://nl.search.yahoo.com. with translating words from Dutch to English and with finding out how to spel some English words. As I am not a native speaker of Engilish I would like my writing to be in correct English. With if possible not that many spelling mistakes.
 
 
 ## Testing
@@ -88,10 +98,14 @@ Whenever it is feasible, prefer to automate your tests, and if you've done so, p
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
 Contact form:
-Go to the "Contact Us" page
+Go to the "Contact" page
 Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
+Try to submit the form with an invalid email address and verify that a relevant error message appears, these messages appear in the language you have your device in.
+Try to submit the form with all inputs valid and verify that it will go back to the contact form, this in chrome. When I tested it in Microsoft Edge and on a mobile device instead of going back to the contact form, it gives an 405 error.
+
+I have 
+
+
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
