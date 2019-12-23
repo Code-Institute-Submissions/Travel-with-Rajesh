@@ -361,7 +361,13 @@ label {
     margin-top: 60px;
     margin-left: 40px;
   }
-
+  .success{
+    height: 430px;
+  }
+  
+  .success-form{
+    margin-top: 60px;
+  }
   
 }
 
@@ -388,11 +394,19 @@ label {
   }
 
   h5 {
-    font-size: xx-large;
+    font-size: 32px;
     margin-left: 20px;
   }
 
   .about p {
     margin-left: 20px;
+  }
+
+  .success{
+    height: 780px;
+  }
+  
+  .success-form{
+    margin-top:190px;
   }
 }
