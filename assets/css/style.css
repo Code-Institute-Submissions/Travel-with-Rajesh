@@ -36,6 +36,17 @@ h5 {
   font-family: "Roboto"
 }
 
+a {
+  color: #525252;
+  text-decoration-line: none;
+}
+
+a:hover {
+  color: #525252;
+  text-decoration: none;
+
+}
+
 /*---------------------------------- Heading */
 
 #main-pic {
@@ -105,6 +116,9 @@ footer a {
   color: #afafaf;
 }
 
+footer a:hover {
+  color: #afafaf;
+}
 /*---------------------------------- Contact */
 
 .form-section {
@@ -206,6 +220,10 @@ label {
 .link a {
   color: #525252
 }
+
+#modify {
+  text-align: center;
+}
 /*---------------------------------- Trekking */
 .trekkings {
   margin-bottom: 20px;
@@ -230,7 +248,10 @@ label {
 #homestay {
   background-color: rgba(82, 82, 82,.20);
 }
-   
+
+#modifies {
+  text-align: center;
+}
 /*---------------------------------- Tour */
 
 .tours li {
@@ -276,6 +297,8 @@ label {
   margin-top: 10px;
   margin-left: 20px;
 }
+
+
 /*---------------------------------- mobile */
 
 @media screen and (min-width: 320px) {
