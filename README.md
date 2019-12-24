@@ -24,12 +24,16 @@ This website is for users that are intersted in traveling to Nepal. Whether it i
 Users how are interested in a holiday in Nepal, can find different treks to do in Nepal. With every trek there is listed if it is an easy, medium or hard trek. This is not specified with the tours because the are more of the easy kind.The tours can be modified them to make them easier or harder if the user would want to.
 They can also read in the discription what they can expect on the trek and there is even a link that will take them to the gallery page. On this gallery page they can see pictures of how that region looks like to get an better idea of what kind of view they can expect. 
 
-When a user has found what they are interested in, the user will feel in the contact form as a first step to getting a tour made for them, in ther price range.
+The user want to do a trekking to Everest, it will click on the trekking page and then select Everest region then it will see all the terkkings that are possible around Everest.
+
+The user want to do experience life in Nepal, this is at the moment more difficult to find because the trekkings are arraged on regions. Where under the homstay is located.
+
+The user wants to do a tour, it will click on the tour page and then select which of the tours they are interested in. 
+
+When the user has found they are interested in, the user will feel in the contact form as a first step to getting a tour made for them, in ther price range.
 
 (Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-
 As a user type, I want to perform an action, so that I can achieve a goal.)
 
 ### Design process
@@ -106,7 +110,10 @@ Contact form:
 Go to the "Contact" page
 Try to submit the empty form and verify that an error message about the required fields appears
 Try to submit the form with an invalid email address and verify that a relevant error message appears, these messages appear in the language you have your device in.
-Try to submit the form with all inputs valid and verify it will send the user to the success.html, with the message that the message has been send to the company. I have tested this in chrome and it will send you to the success.html, with the message that your message has been send to the company. I have tested it on a mobile device instead of going to the success.html, with the message that it is send to the company, it gives an 405 error.
+
+Try to submit the form with all inputs valid and for a while it would give and error message as there was no where to send or link to after submiting. I didn't think that was a very solution, as I don't know how to make it send just yet. So after thinking about it and asking people in slack i decided to make a separate page with the message that it has been send. 
+
+So when you submit the form with all inputs valid it will verify this by sending the user to the success.html, with the message that the message has been send to the company. This works very good in chrome. I have tested it on a mobile device and Microsoft Edge instead of going to the success.html, with the message that it is send to the company, it gives an 405 error.
 
 I have not been able to get that bug out of it.
 
