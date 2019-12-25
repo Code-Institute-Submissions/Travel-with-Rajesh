@@ -28,8 +28,8 @@ As a user type:
 * I want to do a trek up to Mt. Everest, so that I can get it off my bucketlist.
 * I want to see how people live in Nepal, so that i can learn more about the cultural differences in different countries.
 * I want to see the highlights of Kathmandu, so that I can mark Nepal off my to go list.
-* I want to see a rhino, so that I can tell everyone they live in more places then just Africa.
 * I want to see kathmandu, so that I can find the best places to shop.
+* I want to see a rhino, so that I can tell everyone they live in more places then just Africa.
 
 ### Design process
 
@@ -59,7 +59,7 @@ Feature 5 - Allows users to get more information or book a tour/ trekking for th
 * Put prices on the page. When users are looking for things to do on there holiday they would like to have an indication of what the cost would be, at least I would want to know. I have been told that because of the different factures during or preparing for the tour/trek can effect the price. So it makes it difficult to just pot down a price.
 
 ## Technologies Used
-(In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.)
+
 ### Languages
 
 * HTML
@@ -70,7 +70,7 @@ Feature 5 - Allows users to get more information or book a tour/ trekking for th
 
 ### Frameworks :page_facing_up:
 
-Bootsctrap, https://getbootstrap.com/
+Bootstrap, https://getbootstrap.com/
   I have used it to style:
   * Footer
   * Navbar
@@ -92,35 +92,48 @@ Bootsctrap, https://getbootstrap.com/
 * Wikipedia, https://en.wikipedia.org. To help me look up the hights of different peaks/mountains
 * Make a readme, https://www.makeareadme.com. To get an better idea of how to write a good readme.md but it wasn't very helpfull.
 * Google/Yahoo, https://www.google.nl / https://nl.search.yahoo.com. with translating words from Dutch to English and with finding out how to spel some English words. As I am not a native speaker of Engilish I would like my writing to be in correct English. With if possible not that many spelling mistakes.
+* Yandex Translate, this is an app on my phone that helps me find the correct spelling to the english words I want to use. It translates the Dutch word to English.
 
 
 ## Testing
 
-### User story
+My goal was to keep the layout in the different screen sizes the same. Then the user will not get confussed about if they where still on the same page or not. I have learned that when you work with a smaller screen size some elements just take up to much of the screen estate and it would make it look messy, so I had to change some elements.
 
-As a user type:
-* I want to see how people live in Nepal, so that i can learn more about the cultural differences in different countries.
-* I want to see the highlights of Kathmandu, so that I can mark Nepal off my to go list.
-* I want to see a rhino, so that I can tell everyone they live in more places then just Africa.
-* I want to see kathmandu, so that I can find the best places to shop.
+I have used Bootstrap for some elements in this project, that I have already practiced in the video lessons. So these elements would change when I put the view browser in a Different screen size. I have tried to use it for more elements but after testing them in the browser view, I saw that they did not work. I still have to read up on how to use Bootstrap for different elements. Because just copy and past them is not going to help you figure out what you did wrong when it does not work, that is what I found out. 
 
-The user how wants to trek to  Mt. Everest, the user will click on trekking in the navbar and then select Everest region then the user will see all the terkkings that are possible around Everest.
+### The navbar
 
-The user how want to do experience life in Nepal, the user will click on trekking in the navbar and then
-This is more difficult to find because the trekkings are arraged on regions. Dhading region is the region Where the homstay is located under.
+I know that the navbar had to change in the smaller screen size. Otherwise it would be to messy and to big for the screen. I also wantedto have a dropdown in my navbar, I made one in the mini project whiskey drop. As naive that I was, I thought just copy and past it and it works, that did not work. After a while I remember reading on Bootstrap that in some of the cases you need to use popper.min.js. So I thought I will just watch the video lesson again and then I will see how it worked again. This when I found out they changed it for a different mini project, so no watching back. 
 
-The user wants to do a tour, it will click on the tour page and then select which of the tours they are interested in. 
+I copied the scripts from my mini project and started experimenting with leaving one out and seeing what would happen. Testing it this way one by one made me see what the difference was and if my navbar had a dropdown or not. I was very happy when I found out that i needed all of them but more by the fact that it was working. As I think the dropdown sections in my navbar are very important for users to navigate this site.
 
-When the user has found they are interested in, the user will feel in the contact form as a first step to getting a tour made for them, in ther price range.
-(In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+Thanks to the Bootstrap it also changed when I would go to a smaller size. The dropdown in the navbar takes up a bit of space when in use but it will go back up when you are done with it. So on the smaller screen the column of the navbar looks the same, color wise but all the different pages are now hidding behind a button with three stripes. I modified it so it fits better in my site, it doesn't have the logo in it and the dropdown text comes out Centered and not to the left.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+### Footer
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:)
+I didn't have to think long on how I wanted my footer to look like. I wanted it in three sections with two of them linking to a different page and with the third linking to social media, it is very important now a days. I made a similar footer in another mini project, so I copied the code and tested it in my browser viewer. Then I changed the content and the links to suit my site.
+Because of the Bootstrap code it changed correctly when I changed screen sizes.
 
-Contact form:
-Go to the "Contact" page
-Try to submit the empty form and verify that an error message about the required fields appears
+### Main image and logo
+
+In my mockup I made my header with a big image and on there the logo, so i just had to make it. It took me a couple of trys to find the image that would work for this site. I put the code for the image in my css so that my code in index.html would be better readable. I have made a couple of mini projects where I made text on an image appear, so I did the same here.
+
+When I went to test it in teh different screen sizes, I saw that the idea that I had changed to much. I looked in to Bootstrap if i could find anything that could help me but I was overwhelmed and I could not find anything that I thought could help. I rememberd that in the beginning of the course I learned about media queries. So I made four different media querie for the different screen sizes. I had to modify the height and change the font size of the logo in every query to make it look the same. I used the inspect tool in chrome a lot to figure out what worked for what size.
+
+I also tested the browser viewer in the restore down mode and then making it smaller and bigger. I saw that the screen changes when it hit the different media screen queries. But inbetween these media queries I saw that they image did not really look the same, the changes are small but they are there. Not sure if that is because the image that you see is part of a bigger image or not. I have seen the same in some of the mini projects that the image is displayed a bit different.
+
+I chose to go with a mobile approach when it comes to my media queries as I have learned it will make it easier with loading the page on a smaller screen.
+
+### Other contant
+
+For most of the content between the navbar and the footer I have not used Bootstrap. Even with the elements where I have used Bootstrap, I notice they they did not change to the way I liked. So with the help of the inspect tool I changed the layout of the four different screen sizes. I found out that some of the elements I only had to change in the smaller screen size and the biggest screen size. These elementa worked the way I liked them to in the other two screen sizes. 
+
+I also tested the browser viewer in the restore down mode and then making it smaller and bigger. I saw that the screen changes when it hit the different media screen queries. But inbetween these media queries I saw that they layout did not really look the same, the changes are small but they are there. I did not have time to look deeper in to this.
+
+### Contact form
+
+Go to the "Contact" page.
+Try to submit the empty form and verify that an error message about the required fields appears.
 Try to submit the form with an invalid email address and verify that a relevant error message appears, these messages appear in the language you have your device in.
 
 Try to submit the form with all inputs valid and for a while it would give and error message as there was no where to send or link to after submiting. I didn't think that was a very solution, as I don't know how to make it send just yet. So after thinking about it and asking people in slack i decided to make a separate page with the message that it has been send. 
@@ -133,12 +146,17 @@ After looking for help in Slack and after Richard Wells saw the 405 error he did
 
 So after removing the Method="post". I tried to submit the form with all inputs valid and it verified it with showing the succes.html with the thanks you message.
 
+### User story
 
-(In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+The user how wants to trek to  Mt. Everest, the user will click on trekking in the navbar and then select Everest region, then the user will see all the trekkings that are possible around Everest.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+The user how want to do experience life in Nepal. This use to be more difficult to find because the trekkings are arraged on regions. Dhading region is the region Where the homstay is located under. So I put in the about us section a mention about the homestay, so that it is easier to find. So now the user will click on trekking in the navbar and then select Dhading regin, then the user will find the homestay trekking. 
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.)
+The user how wants to do a tour of Kathmandu, the user will click on the tour page and then select Kathmandu, then the user will see all the tours that are possible around Kathmandu.
+
+The user how wants to see a rhino, the user will click on the tour page and then select Chitwan, then the user will see all the tours that are possible around Chitwan national park.
+
+When the user has found they are interested in, the user will feel in the contact form as a first step to getting a tour made for them, in ther price range.
 
 ## Deployment
 
@@ -149,23 +167,22 @@ Sometimes I worked on more then one page or I just keept working / changing thin
 
 After I deployed my project I found out why you should not use capital letters in the name of your website. It makes it difficulter to find. I had someone look at my website and he typed everything in small letters en we got an error that it could not be found. I changed the capital letters to small letters and asked him again to look it up. But it did not make any differance. That was when I found out that I made this mistake.
 
-
-
-(In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.)
-
 ## Credits
 
 ### Content
-The text for the section reviews was copied from the facebook page of Travel with Rajesh. 
-The text from the trekking page is supplied by the company Travel with Rajesh. The contant of the tour section is dumby text of one of the tours that can be found on the Facebook page of the company. The dumby text for the section about us that is written by myself as the owner was working at the time I was making this project.
+
+* The dummy content for the section about us that is supplied by myself as the owner was working at the time I was making this project.
+* The content for the section reviews was copied from the facebook page of Travel with Rajesh. 
+* The content from the trekking page is supplied by the company Travel with Rajesh. 
+* The contant of the tour section is dumby text of one of the tours that can be found on the Facebook page of the company. 
+* The dummy content from the contact page is supplied by myself.
+* The dummy content from the succes page is supplied by myself.
+
 
 ### Media :camera:
-The pictures in the review section, these are obtained from the facebook pages of the four people how left a review on the facebook page of Travel with Rajesh. The dommy photos in the gallery.html are from Rajesh Timalsina amd from myself. The main picture is from the facebook page from Travel with Rajesh.
+* The pictures in the review section, these are obtained from the facebook pages of the four people how left a review on the facebook page of Travel with Rajesh. 
+* The dommy photos in the gallery.html are from Rajesh Timalsina amd from myself. 
+* The main picture  plus the picture in the about us section is from the facebook page from Travel with Rajesh.
 
 ### Acknowledgements
 * I would like to thank some of my colleagues for giving me suggestions on how to make this site more appealing for users.
