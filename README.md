@@ -75,6 +75,7 @@ Bootstrap, https://getbootstrap.com/
   * Footer
   * Navbar
   * Review section
+  * About us 
 
 ### Libraries :books:
 
